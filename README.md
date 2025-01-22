@@ -1,5 +1,6 @@
 # 1ce-icons-for-plantuml
 Расширенный форк на https://github.com/plastinin/1ce-icons-for-plantuml
+
 Набор спрайтов и макросов по объектам платформы 1С:Предприятие для использования в диаграммах PlantUML.
 
 ![example](examples/example.png)
@@ -15,7 +16,7 @@
 - клонировать репозиторий
 - в начале _вашего_ puml-файла добавить директивы импорта
 
-```puml
+```
 !include <Путь>/main.puml
 и т.д.
 ```
@@ -26,8 +27,13 @@
 
 - в начале _вашего_ puml-файла добавить директивы импорта (обращайте внимание на версию):
 
-```puml
+```
 !include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/all.puml
 
 и т.д.
 ```
+
+## Основная документация
+
+Набор спрайтов сделан на основе базовой библиотеки "Диаграмы классов" https://plantuml.com/ru/class-diagram
+Все доп.возможности можно использовать из описания к данной библиотеке.
