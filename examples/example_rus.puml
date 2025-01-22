@@ -1,12 +1,11 @@
 @startuml
 
-!include ../dist/common.puml
-!include ../dist/all.puml
+!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/all.puml
 
 header Техкружок 
 title 1C Enterpise example
 caption Пример диаграммы объектов
-footer Команда ИТК, 2022
+footer Команда, 2022
 
 package НСИ <<folder>> {
 
