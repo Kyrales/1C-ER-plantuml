@@ -1,4 +1,4 @@
-@startuml
+@startuml common
 
 ' Sprite for Resource
 sprite $r [16x16/color] {
@@ -52,3 +52,4 @@ zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 '   e_alias:    the alias to give the entity
 '   e_label:    the label to give the entity
 !define ENTITY(e_sprite,e_alias,e_label) object "<$e_sprite> e_label" as e_alias
+@enduml
