@@ -1,0 +1,5 @@
+!if %variable_exists("RELATIVE_INCLUDE")
+  !include ./dist/all.puml
+!else
+  !include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/all.puml
+!endif

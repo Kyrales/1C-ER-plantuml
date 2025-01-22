@@ -1,5 +1,6 @@
 @startuml
 
+!include common.puml
 !include v8_AccRg.puml
 !include v8_Document.puml
 !include v8_Catalog.puml
