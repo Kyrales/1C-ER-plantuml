@@ -1,13 +1,13 @@
 @startuml
 
-!include common.puml
-!include v8_AccRg.puml
-!include v8_Document.puml
-!include v8_Catalog.puml
-!include v8_InfoRg.puml
-!include v8_ChartsOfCharacteristicTypes.puml
-!include v8_DefinedTypes.puml
-!include v8_Enum.puml
-!include v8_Form.puml
+!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/common.puml
+!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_AccRg.puml
+!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_Document.puml
+!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_Catalog.puml
+!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_InfoRg.puml
+!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_ChartsOfCharacteristicTypes.puml
+!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_DefinedTypes.puml
+!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_Enum.puml
+!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_Form.puml
 
 @enduml
