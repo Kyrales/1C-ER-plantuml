@@ -1,9 +1,14 @@
-# 1ce-icons-for-plantuml
-Расширенный форк на https://github.com/plastinin/1ce-icons-for-plantuml
-
+# Спрайты для диаграммы ER-типа под 1С (1ce-icons-for-plantuml)
+Это расширенный форк на https://github.com/plastinin/1ce-icons-for-plantuml
 Набор спрайтов и макросов по объектам платформы 1С:Предприятие для использования в диаграммах PlantUML.
 
-![example](examples/example.png)
+Отличия от базового:
+- Возможность для подключения указывать одну рабочую ссылку:
+"!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/main.puml"
+
+![Adress](out/examples/Adress/Adress.png)
+
+![example](out/examples/example_rus/example_rus.png)
 
 ## Начало работы
 
@@ -20,6 +25,10 @@
 !include <Путь>/main.puml
 и т.д.
 ```
+
+Или
+
+Прописать путь к клонированной библиотеке в PATH в RELATIVE_INCLUDE
 
 > При работе локально вместо подключения нескольких отдельных файлов с префиксом `v8_` можно подключить единственный файл `all.puml`
 

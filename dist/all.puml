@@ -1,9 +1,21 @@
-!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/common.puml
-!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_AccRg.puml
-!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_Document.puml
-!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_Catalog.puml
-!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_InfoRg.puml
-!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_ChartsOfCharacteristicTypes.puml
-!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_DefinedTypes.puml
-!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_Enum.puml
-!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_Form.puml
+!if %variable_exists("RELATIVE_INCLUDE")
+    !include ./dist/common.puml
+    !include ./dist/v8_AccRg.puml
+    !include ./dist/v8_Document.puml
+    !include ./dist/v8_Catalog.puml
+    !include ./dist/v8_InfoRg.puml
+    !include ./dist/v8_ChartsOfCharacteristicTypes.puml
+    !include ./dist/v8_DefinedTypes.puml
+    !include ./dist/v8_Enum.puml
+    !include ./dist/dist/v8_Form.puml   
+!else
+    !include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/common.puml
+    !include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_AccRg.puml
+    !include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_Document.puml
+    !include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_Catalog.puml
+    !include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_InfoRg.puml
+    !include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_ChartsOfCharacteristicTypes.puml
+    !include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_DefinedTypes.puml
+    !include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_Enum.puml
+    !include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/v8_Form.puml
+!endif
