@@ -28,7 +28,7 @@
 - в начале _вашего_ puml-файла добавить директивы импорта (обращайте внимание на версию):
 
 ```
-!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/all.puml
+!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/main.puml
 
 и т.д.
 ```

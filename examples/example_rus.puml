@@ -1,6 +1,6 @@
 @startuml
 
-!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/all.puml
+!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/main.puml
 
 header Техкружок 
 title 1C Enterpise example

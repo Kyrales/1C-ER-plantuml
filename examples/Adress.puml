@@ -1,7 +1,7 @@
 @startuml
 
 ' Основное описание Диаграммы классов: https://plantuml.com/ru/class-diagram
-!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/dist/all.puml
+!include https://raw.githubusercontent.com/Kyrales/1C-ER-plantuml/refs/heads/extended/main.puml
 
 'skinparam linetype ortho
 
